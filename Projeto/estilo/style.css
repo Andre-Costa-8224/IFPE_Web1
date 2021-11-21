@@ -7,6 +7,19 @@ header{
     margin-bottom: 100px;
 }
 
+.bg-color-aqua{
+  background-color: aqua;
+}
+
+.centraliza{
+  display: flex;
+  justify-content: center;
+}
+
+.navegation{
+    display: flexbox;
+}
+
 .log{
     text-align: center;
     background-color: white;
