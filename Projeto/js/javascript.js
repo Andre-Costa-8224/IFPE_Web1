@@ -1,4 +1,4 @@
-let div = document.getElementById('carouselExampleControls')
+let div = document.getElementById('carr')
 
 function mostra() {
     div.hidden = false
