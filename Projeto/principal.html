@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Locadora</title>
+
+    <style>
+        .body{
+    background-color: rgb(49, 163, 123);
+}
+
+header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bg-color-aqua{
+  background-color: aqua;
+}
+
+.centraliza{
+  display: flex;
+  justify-content: center;
+}
+
+.navegation{
+    display: flexbox;
+}
+
+.log{
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 7px;
+}
+
+.disp{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link2:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dp-menu ul {
+    background-color:rgb(90, 90, 90);
+  }
+  
+  .dp-menu ul li {
+    display: inline;
+    position: relative;
+  }
+  
+  .dp-menu ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .5s;
+  }
+  
+  .dp-menu ul li a:hover {
+    background-color: rgb(0, 247, 255);
+  }
+  
+  /*sub menu*/
+  .dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+  }
+  
+  .dp-menu ul li:hover ul {
+    display: block;
+  }
+  
+  .dp-menu ul ul {
+    width: 150px
+  }
+  
+  .dp-menu ul ul li a {
+    display: block;
+  }
+  
+  .altura{
+    max-height: 300px;
+    width: 500px;
+  }
+
+    </style>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body class="body">
+
+    
+    <header>
+        <h1>Locadora ClockBuster</h1>
+        <nav class="dp-menu">
+            <ul>
+                <li><a href="cadastros.html">Cadastros</a></li>
+                <li><a href="devolucao.html">Devolução</a></li>
+                <li><a href="#" onclick="mostra()">Acervo</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carr" hidden>
+      <section style="display: flex; justify-content: center;">
+        <div id="carouselExampleIndicators" class="carousel slide altura" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="shangchi.html" target="_blank"><img class="d-block w-100 altura" src="midia/shangchi.jpeg" alt="Primeiro Slide"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="mortalkombat.html" target="_blank"><img class="d-block w-100 altura" src="midia/download (1).jpg" alt="Segundo Slide"></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </section>
+        </div>
+          <br>
+        <section style="display: flexbox; justify-content: center;">
+          <div style="margin-top: 80px; display: flex; justify-content: center;">
+            <button class="btn btn-primary" onclick="esconde()">Esconder</button>
+          </div>
+          <div style="margin-top: 30px; margin-bottom: 30px;">
+            <h3 style="text-align: center;">Para detalhes dos filmes clique na imagem do filme que deseja ver</h3>
+          </div>
+        </section>
+    </section>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="js/javascript.js"></script>
+</body>
+</html>
