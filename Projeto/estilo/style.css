@@ -1,14 +1,62 @@
+*{
+  margin: 0;
+}
+
+@font-face{
+  font-family: "f1";
+  src: url(/fontes/Audiowide-Regular.ttf);
+}
+
+@font-face {
+  font-family: "f2";
+  src: url(/fontes/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: "f4";
+  src: url(/fontes/Ultra-Regular.ttf);
+}
+
+@font-face {
+  font-family: "f5";
+  src: url(/fontes/SpectralSC-Medium.ttf);
+}
+
 body{
-    background-color: rgb(49, 163, 123);
+    background-image: url('/midia/coresazuis.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.acervo{
+  display: flex;
+  background-color: #133CC2;
+  justify-content: center;
+  font-family: f5;
+}
+
+.acervo p{
+  margin-bottom: auto;
+  font-weight: bold;
+  color: #F6A900;
+  padding: 10px;
+}
+
+fieldset{
+  font-family: f2;
+  background-color: white;
 }
 
 header{
     text-align: center;
     margin-bottom: 100px;
+    background-color: #0C30A6;
+    color: #F6A900;
+    font-family: f1;
 }
 
 .bg-color-aqua{
-  background-color: aqua;
+  background-color: #2D4EBD;
 }
 
 .centraliza{
@@ -38,11 +86,16 @@ header{
 
 .link{
     text-decoration: none;
+    color: #F6A900;
 }
 
 .link2:hover{
     background-color: aquamarine;
     text-decoration: underline;
+}
+
+.dp-menu{
+  padding-bottom: 1px;
 }
 
 .dp-menu ul {
@@ -51,7 +104,7 @@ header{
   }
   
   .dp-menu ul {
-    background-color:rgb(90, 90, 90);
+    background-color:#0C30A6;
   }
   
   .dp-menu ul li {
@@ -70,22 +123,9 @@ header{
   .dp-menu ul li a:hover {
     background-color: rgb(0, 247, 255);
   }
-  
-  /*sub menu*/
-  .dp-menu ul ul {
-    display: none;
-    left: 0;
-    position: absolute;
+
+  .altura{
+    max-height: 400px;
+    width: 500px;
   }
-  
-  .dp-menu ul li:hover ul {
-    display: block;
-  }
-  
-  .dp-menu ul ul {
-    width: 150px
-  }
-  
-  .dp-menu ul ul li a {
-    display: block;
-  }
+

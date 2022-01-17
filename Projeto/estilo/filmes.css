@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "f3";
+    src: url(/fontes/Quantico-Bold.ttf);
+}
+
+body{
+    font-family: f3;
+}
+
+.mortalktitle{
+    display: flexbox; justify-content: center; max-width: 400px; text-align: center;background-color: white; margin: auto; border-radius: 7px;
+  }
+  
+  .mortalksec{
+    display: flexbox; justify-content: center; max-width: 670px; margin: auto;
+  }
+  
+  .mortalksec article{
+    border: 1px solid black; background-color: white; border-radius: 4px; padding: 10px;
+  }
+
+.mortalkrodape{
+    display: flexbox; justify-content: center; margin-top: 50px; text-align: center; margin-bottom: 30px;
+}
+
+.mortalkrodape span{
+    border: 1px solid black; padding: 10px; background-color: white; border-radius: 4px;
+}
+
+.shangchititle{
+    display: flexbox; justify-content: center; max-width: 540px; text-align: center;background-color: white; margin: auto; border-radius: 7px;
+}
+
+.shangchisec{
+    display: flexbox; justify-content: center; max-width: 670px; margin: auto;
+}
+
+.shangchisec article{
+    border: 1px solid black; background-color: white; border-radius: 4px; padding: 10px;
+}
+
+.shangchirodape{
+    display: flexbox; justify-content: center; margin-top: 50px; text-align: center; margin-bottom: 30px;
+}
+
+.shangchirodape span{
+    border: 1px solid black; padding: 10px; background-color: white; border-radius: 4px;
+}
