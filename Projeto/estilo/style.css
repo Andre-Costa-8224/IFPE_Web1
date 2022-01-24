@@ -4,33 +4,33 @@
 
 @font-face{
   font-family: "f1";
-  src: url(/fontes/Audiowide-Regular.ttf);
+  src: url(/Projeto/fontes/Audiowide-Regular.ttf);
 }
 
 @font-face {
   font-family: "f2";
-  src: url(/fontes/Pacifico-Regular.ttf);
+  src: url(/Projeto/fontes/Pacifico-Regular.ttf);
 }
 
 @font-face {
   font-family: "f4";
-  src: url(/fontes/Ultra-Regular.ttf);
+  src: url(/Projeto/fontes/Ultra-Regular.ttf);
 }
 
 @font-face {
   font-family: "f5";
-  src: url(/fontes/SpectralSC-Medium.ttf);
+  src: url(/Projeto/fontes/SpectralSC-Medium.ttf);
 }
 
 body{
-    background-image: url('/Projeto/midia/coresazuis.png');
+    background-image: url('/Projeto/midia/Cores.png');
     background-size: cover;
     background-position: center;
 }
 
 .acervo{
   display: flex;
-  background-color: #133CC2;
+  background-color: #133cc2;
   justify-content: center;
   font-family: f5;
 }
@@ -40,6 +40,7 @@ body{
   font-weight: bold;
   color: #F6A900;
   padding: 10px;
+  animation: opacidade 1.5s alternate infinite;
 }
 
 fieldset{
@@ -129,3 +130,11 @@ header{
     width: 500px;
   }
 
+@keyframes opacidade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
