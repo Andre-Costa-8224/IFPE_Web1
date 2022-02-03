@@ -1,10 +1,7 @@
-@font-face {
-    font-family: "f3";
-    src: url(/Projeto/fontes/Quantico-Bold.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
 
 body{
-    font-family: f3;
+    font-family: 'Quantico', sans-serif;
 }
 
 .mortalktitle{
